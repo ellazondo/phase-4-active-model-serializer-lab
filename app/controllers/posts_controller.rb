@@ -11,6 +11,9 @@ class PostsController < ApplicationController
     render json: post
   end
 
+  def short_content
+  end
+
   private
 
   def render_not_found_response
